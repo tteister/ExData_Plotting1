@@ -16,7 +16,7 @@ plot4 <- function() {
   plot(df$timestamp,df$Global_reactive_power, type="l", xlab="datetime", ylab="Global_reactive_power")
   
   #OUTPUT
-  dev.copy(png, file="plot4.png", width=480, height=480)
+  dev.copy(png, file="plot4.png", width=712, height=435)
   dev.off()
   cat("plot4.png has been saved in", getwd())
 }
