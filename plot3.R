@@ -1,4 +1,5 @@
 plot3 <- function() {
+  ##The following creates the 3 different sub_metering lines for plot3, color coding them.
   plot(df$timestamp,df$Sub_metering_1, type="l", xlab="", ylab="Energy sub metering")
   lines(df$timestamp,df$Sub_metering_2,col="red")
   lines(df$timestamp,df$Sub_metering_3,col="blue")

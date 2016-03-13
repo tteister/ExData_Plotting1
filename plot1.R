@@ -1,3 +1,4 @@
+##This creates plot 1
 plot1 <- function() {
   hist(df$Global_active_power, main = paste("Global Active Power"), col="red", xlab="Global Active Power (kilowatts)")
   dev.copy(png, file="plot1.png", width=712, height=435)
